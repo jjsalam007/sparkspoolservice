@@ -177,7 +177,7 @@ for d in os.listdir('pool-repair'):
                     try:
                         search_categories = open(f'pool-repair/{d}/{c}/{b}', "r", encoding="utf8").read()
                         
-                        op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-939').replace('tel:2067387235', 'tel:888498939')
+                        op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-9391').replace('tel:2067387235', 'tel:8884989391')
          
                         
                         fp = open(f'pool-repair/{d}/{c}/{b}', "w", encoding='utf-8-sig')
@@ -193,7 +193,7 @@ for d in os.listdir('pool-repair'):
 for d in os.listdir('pool-repair'):
     try:
         search_categories = open(f'pool-repair/{d}/index.html', "r", encoding="utf8").read()
-        op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-939').replace('tel:2067387235', 'tel:888498939')
+        op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-9391').replace('tel:2067387235', 'tel:8884989391')
         # if 'pool-repair' in str(d):
         #     shutil.rmtree(f'pool-repair/{d}')
             
@@ -216,7 +216,7 @@ for d in os.listdir('pool-repair'):
 try:
     search_categories = open(f'pool-repair/index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-939').replace('tel:2067387235', 'tel:888498939')
+    op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-9391').replace('tel:2067387235', 'tel:8884989391')
     
     fp = open(f'pool-repair/index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
@@ -227,9 +227,9 @@ except:
 try:
     search_categories = open(f'index.html', "r", encoding="utf8").read()
     
-    op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-939').replace('tel:2067387235', 'tel:888498939')
+    op= search_categories.replace("﻿", '').replace('https://sparkspoolservice.com/', 'https://sparkspoolservice.netlify.app/').replace('(206) 738-7235', '(888) 498-9391').replace('tel:2067387235', 'tel:8884989391')
     
-    fp = open(f'pool-repair/index.html', "w", encoding='utf-8-sig')
+    fp = open(f'index.html', "w", encoding='utf-8-sig')
     fp.writelines(op)
     fp.close()
 except:
