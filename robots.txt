@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sparkspoolservice.com/sitemap.xml
+Sitemap: https://sparkspoolservice.netlify.app/sitemap.xml
